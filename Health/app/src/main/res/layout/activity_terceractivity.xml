@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fhf1"
+    tools:context=".Terceractivity">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="106dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/button_redondo"
+        android:onClick="terceramain"
+        android:text="@string/B4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.879"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        app:layout_constraintVertical_bias="0.261" />
+
+    <TextView
+        android:id="@+id/editTextA3Usuario"
+        android:layout_width="306dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_text_redondo"
+        android:hint="@string/editTextA3Usuario"
+        android:textColor="#9C27B0"
+        android:paddingLeft="30dp"
+        android:textColorHint="#ffffff"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="98dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:contentDescription="imc"
+        android:onClick="iraimc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/ListV1"
+        app:layout_constraintTop_toBottomOf="@+id/editTextA3Usuario"
+        app:srcCompat="@mipmap/imclogo200" />
+
+    <ListView
+        android:id="@+id/ListV1"
+        android:layout_width="184dp"
+        android:layout_height="307dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextA3Usuario"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

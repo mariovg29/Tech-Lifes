@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Health</string>
+    <string name="TV1ingreso">Ingresar Como:</string>
+    <string name="textView2Medico">Medico</string>
+    <string name="textView3Paciente">Paciente</string>
+    <string name="B1">Primer Activity</string>
+    //Segunda Activity
+    <string name="textView2Bienvenidas">"Hola"</string>
+    <string name="textView2usuario">""</string>
+    <string name="B2">Ingresar</string>
+    <string name="editTextUsuario">Usuario</string>
+    <string name="editText2Password">Contraseña</string>
+    <string name="Bnuevo">Registrarse...</string>
+
+
+    //tercer Activity
+
+    <string name="B3"> </string>
+    <string name="B4">Ir al inicio</string>
+    <string name="editTextA3Usuario">Bienvenido</string>
+    //Cuarta activity
+
+    <string name="editTextA4talla">Ingrese su Estatura en Cm</string>
+    <string name="editTextA4Peso">Ingrese su Peso en Kg</string>
+    <string name="B4Calcularimc"> Calcular</string>
+    <string name="textViewA4Encabezado">ÍNDICE DE MASA CORPORAL</string>
+    <string name="buttonA4Regresar"> REGRESAR</string>
+    <string name="buttonA4Inicio"> INICIO </string>
+    <string name="textViewA4Resultadoimc">Su IMC es:</string>
+    <string name="textViewA4Mensaje">Resultado</string>
+
+    //Quinta activity
+    <string name="BA5Inicio"> Inicio</string>
+    //Splash Activity
+    <string name="textViewnombre">Health and Fit </string>
+    <string name="textViewby">by Valadez</string>
+    //registro Activity
+
+    <string name="textView6registro">Registro de Usuario Nuevo </string>
+    <string name="editText6nombre">Ingrese su Nombre(s) </string>
+    <string name="editText6ap_pat">  Apellido Paterno</string>
+    <string name="editText6correo">ingrese su email</string>
+    <string name="editText6ap_mat">Apellido Materno</string>
+    <string name="editText6usuario">Usuario</string>
+    <string name="editText6contraseña">Contraseña</string>
+    <string name="editText6tel1">Telefono1</string>
+    <string name="editText6tel2">Telefono2 opcional</string>
+    <string name="B6confirmar"> Confirmar</string>
+    <string name="B6direccion"> REGISTRAR DIRECCIÓN</string>
+    //registro Direcciones
+
+    <string name="textView7registro">Registro de Dirección </string>
+    <string name="editText7calle">Calle </string>
+    <string name="editText7col"> Colonia</string>
+    <string name="editText7num">Numero Exterior </string>
+    <string name="editText7numint">Numero Interior</string>
+    <string name="editText7cp">Código Postal</string>
+    <string name="editText7edo">Estado</string>
+    <string name="editText7munic">Municipio</string>
+    <string name="editText7IDu">ID Usuario</string>
+    <string name="B7confirmar"> Confirmar</string>
+    <string name="B7Inicio"> Inicio</string>
+    <string name="textView7Textid">ID Asignada</string>
+    //Registro Productos
+    <string name="textView8RegProd">Registro de Productos </string>
+    <string name="editText8IDprod">No. Producto</string>
+    <string name="editText8NomProd">Nombre del Producto</string>
+    <string name="editText8DescProd">Descripcion del Producto</string>
+    <string name="editText8TamProd">Tamaño del Producto</string>
+    <string name="editText8PrecioProd">Precio del Producto </string>
+    <string name="editText8Categoria">Ingrese la Categoría </string>
+    <string name="editText8Unidades">Ingrese Unidades Disponibles</string>
+    <string name="B8registrarProd"> Agregar</string>
+    <string name="B8buscarrProd"> Buscar</string>
+    <string name="B8eliminarProd"> Eliminar</string>
+    <string name="button8ActualizarDatos"> Actualizar Datos</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fhf1"
+
+    tools:context=".cuartaActivity">
+
+    <EditText
+        android:id="@+id/editTextA4peso"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/edit_text_redondo"
+        android:ems="10"
+        android:hint="@string/editTextA4Peso"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:textColor="#9C27B0"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewA4Encabezado" />
+
+    <Button
+        android:id="@+id/B4Calcularimc"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_redondo"
+        android:hint="@string/editTextA4Peso"
+        android:onClick="calcularimc"
+        android:text="@string/B4Calcularimc"
+        app:layout_constraintStart_toEndOf="@+id/editTextA4peso"
+        app:layout_constraintTop_toBottomOf="@+id/textViewA4Encabezado" />
+
+    <TextView
+        android:id="@+id/textViewA4Encabezado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/textViewA4Encabezado"
+        android:textColorHint="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonA4Inicio"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="@drawable/button_redondo"
+        android:hint="@string/buttonA4Regresar"
+        android:onClick="cuartatercera"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+        app:layout_constraintVertical_bias="0.772"
+        tools:text="@string/buttonA4Regresar" />
+
+    <TextView
+        android:id="@+id/textViewA4Resultadoimc"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_text_redondo"
+        android:paddingLeft="10dp"
+        android:hint="@string/textViewA4Resultadoimc"
+        android:textSize="30sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toEndOf="@+id/editTextA4talla"
+        app:layout_constraintTop_toBottomOf="@+id/B4Calcularimc" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="352dp"
+        android:layout_height="227dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewA4Mensaje"
+        app:srcCompat="@mipmap/tablaimc2" />
+
+    <EditText
+        android:id="@+id/editTextA4talla"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_text_redondo"
+        android:contentDescription="peso"
+        android:ems="10"
+        android:hint="@string/editTextA4talla"
+        android:inputType="number"
+        android:paddingLeft="5dp"
+        android:textColor="#9C27B0"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextA4peso" />
+
+    <Button
+        android:id="@+id/buttonA4regresar"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@drawable/button_redondo"
+        android:hint="@string/buttonA4Inicio"
+        android:onClick="cuartamain"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+        app:layout_constraintVertical_bias="0.772" />
+
+    <TextView
+        android:id="@+id/textViewA4Mensaje"
+        android:layout_width="348dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/edit_text_redondo"
+        android:paddingLeft="10dp"
+        android:hint="@string/textViewA4Mensaje"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.412"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewA4Resultadoimc" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
